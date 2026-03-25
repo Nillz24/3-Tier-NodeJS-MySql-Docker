@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production"
+    "start": "npx webpack --mode development",
+    "build": "npx webpack --mode production"
   },
   "dependencies": {
     "axios": "^0.21.1",
